@@ -1,0 +1,444 @@
+/* Reset some default browser styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #cc5500;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.feature {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Signup section styles */
+.signup {
+    text-align: center;
+    background-color: #003366;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.signup-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.signup p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.signup-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-form input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-form input[type="submit"]:hover {
+    background-color: #cc5500;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Reset some default styles */
+body, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Logout button */
+.logout-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #0056b3;
+}
+
+/*login
+
+/* Reset some default styles */
+body, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.nav {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.login h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* welcome page
+
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container to center content */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style the heading */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the paragraph text */
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style the logout button */
+.logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+.logintext{
+
+margin-top: 25px;
+
+
+}
+
+.signuptext{
+
+    margin-top: 18px;
+    color:white;
+    
+    
+    }
+
+
+/*button
+
+/* CSS for the "Get Started" button */
+button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #0074D9; /* Button background color */
+    color: #FFFFFF; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+
+    /* Center the button horizontally and vertically */
+    display: block;
+    margin: 0 auto;
+}
+
+/* CSS for the "Get Started" button on hover */
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
